@@ -16,7 +16,7 @@ export default function test() {
     return (
         <div>
 
-            <h1>Binance Web3 Test Page</h1>
+            <h1>Binance Web3 Test Page2</h1>
             {`isInBinance {${isInBinanceState}}`       }
         </div>
     )
