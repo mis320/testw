@@ -4,7 +4,7 @@ import { isInBinance } from '@binance/w3w-utils'
 export default function test() {
 
     console.log('isInBinance', isInBinance());
-    const [isInBinanceState, setIsInBinanceState] = useState(window.ethereum.isBinance);
+    const [isInBinanceState, setIsInBinanceState] = useState();
 
     
     useEffect(() => {
